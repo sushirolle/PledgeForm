@@ -6,10 +6,8 @@ app.use(cors());
 
 //set up all used routes
 const pledgeRoutes = require('./api/routes/pledge');
-const homeRoutes = require('./api/routes/home');
 
-app.use('/pledge', pledgeRoutes);
-app.use('/', homeRoutes);
+app.use('/', pledgeRoutes);
 
 //create and forward errors
 app.use((req, res, next) => {

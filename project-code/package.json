@@ -1,5 +1,5 @@
 {
-  "name": "game-project",
+  "name": "pledge-project",
   "version": "1.0.0",
   "description": "Node.js REST API for Rock Paper Scissors Lizard Spock",
   "main": "index.js",
@@ -11,10 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "inputmask": "^5.0.3",
+    "jquery": "^3.4.1",
     "jslint": "^0.12.1",
     "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.2",
     "requestify": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
